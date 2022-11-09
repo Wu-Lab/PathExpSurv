@@ -19,16 +19,14 @@ We obtain 3 different survival datasets from [UCSC Xena](https://xenabrowser.net
 ## Model Training
 ```bash
 # Two-Phase Training
-python train_pmt.py --task='LGG'
-
-# Retraining
-python retrain_pmt.py --task='LGG'
+python main.py --task='LGG'
 ```
+
 
 
 ## Results
 
-### Performance Results
+### Performance of Survival Analysis
 ![performance](Figures/performance_result.svg)
 
 ### Disease Drivers Discovery
