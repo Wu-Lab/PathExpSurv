@@ -32,6 +32,9 @@ python main.py --task='LGG'
 ### Disease Drivers Discovery
 ![dis2](Figures/dis2_result.svg)
 
+## Contact
+Please open an issue or contact zchou0807@gmail.com with any questions.
+
 
 
 
