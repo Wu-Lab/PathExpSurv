@@ -22,7 +22,13 @@ We obtain 3 different survival datasets from [UCSC Xena](https://xenabrowser.net
 python main.py --task='LGG'
 ```
 
+## Downstream Analysis
 
+We performed several downstream analysis including pathway expansion, Kolmogorov-Smirnov test, two-phase result analysis, single gene survival analysis.
+
+```bash
+python downstream_analysis.py
+```
 
 ## Results
 
