@@ -363,21 +363,6 @@ def single_gene_survival_curve(gene):
 
 
 if __name__=='__main__':
-    
-
-    task='BRCA'
-    path=[0,3,5,6]
-    signal=['ERK','PI3K','WNT','NOTCH','Nuclear Receptor','Cell Cycle','Transcription']
-
-    task='LGG'
-    path=[0,3,4]
-    signal=["ERK","PI3K","Calcium","Cell Cycle","Transcription"]
-
-    task='THCA'
-    path=[1]
-    signal=["ERK","WNT","Transcription"]
-
-
 
     #pathway_expansion
     pathway_expansion(args.dataset,args.alpha)
